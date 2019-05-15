@@ -4,7 +4,8 @@ import java.util.concurrent.CountedCompleter;
 import java.util.concurrent.FutureTask;
 
 public class Test1 {
-    public static void main(String[] args) {
+    static User u1;
+    public static void main(String[] args) throws InterruptedException {
 //        Thread.currentThread().interrupt();
 //        User user=new User("aa");
 
@@ -14,5 +15,38 @@ public class Test1 {
             //-Xmx20m -Xms20m -Xmn1m -XX:+PrintGCDetails
         }
 
+        u1=new User();
+        u1=null;
+        //第一次gc时会调用finalize方法
+        System.gc();
+        Thread.sleep(1000);
+        if(u1==null){
+            System.out.println("is clean");
+        }else {
+            System.out.println("no clean");
+        }
+        u1=null;
+        System.gc();
+        if(u1==null){
+            System.out.println("is clean");
+        }else {
+            System.out.println("no clean");
+        }
+
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for(int i;;){
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+
+                    }
+                }
+            }
+        });
+//        thread.setDaemon(false);
+        thread.start();
+        System.out.println("main is over");
     }
 }

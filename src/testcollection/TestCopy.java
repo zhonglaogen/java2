@@ -7,6 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * 深克隆和浅克隆
+ */
 public class TestCopy {
     private final ConcurrentHashMap con;
     private final Map<String,Integer> map;
