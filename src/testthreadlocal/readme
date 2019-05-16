@@ -1,0 +1,1 @@
+ThreadLocal的set和get方法只于当前线程相关
