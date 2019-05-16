@@ -1,0 +1,4 @@
+map的四种遍历方式
+深拷贝Collections.unmodifiableMap(new HashMap<>(map))
+和浅拷贝
+的模拟map=Collections.unmodifiableMap(con);
