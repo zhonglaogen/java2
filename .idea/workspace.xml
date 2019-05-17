@@ -7,27 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annnotation/Init.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annnotation/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annnotation/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annnotation/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test1/FindClassLoader2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test1/FindClassOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test1/HelloLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test1/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test2/OrderClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classloader/test3/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/Testrandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java2/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/Test1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java2/selectdeal/DealOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/selectdeal/DealOptions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java2/selectdeal/TestSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/selectdeal/TestSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectdeal/TestSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectdeal/TestSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classloader/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/classloader/readme" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,8 +97,8 @@
       <file leaf-file-name="readme" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classloader/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="48">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -667,7 +651,7 @@
       <workItem from="1557935440262" duration="412000" />
       <workItem from="1557981408443" duration="7398000" />
       <workItem from="1558002095562" duration="13268000" />
-      <workItem from="1558098574161" duration="20802000" />
+      <workItem from="1558098574161" duration="20978000" />
     </task>
     <task id="LOCAL-00001" summary="java2 study">
       <created>1557845205778</created>
@@ -697,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558012867055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add classloadertest">
+      <created>1558091409339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558091409339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -721,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80171000" />
+    <option name="totallyTimeSpent" value="80347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,7 +803,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java2 study" />
     <MESSAGE value="add refect single mapforeach stutea selectdeal" />
-    <option name="LAST_COMMIT_MESSAGE" value="add refect single mapforeach stutea selectdeal" />
+    <MESSAGE value="add classloadertest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classloadertest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1224,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classloader/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="48">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
