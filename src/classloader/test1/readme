@@ -1,0 +1,2 @@
+1.Xbootclasspath/a:根据双亲模式用启动classloader加载类
+2.手动更改类的加载器

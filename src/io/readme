@@ -1,0 +1,31 @@
+区别          	            Stream	                Channel
+支持异步        	            不支持 	                    支持
+是否可双向传输数据 	        不能，只能单向 	        可以，既可以从通道读取数据，也可以向通道写入数据
+是否结合Buffer使用 	            不 	                必须结合Buffer使用
+性能 	                        较低 	                   较高
+
+
+            内存和IO接口之间加了 DMA(直接存储器)，DMA向CPU申请权限，IO的操作全部由DMA管理。CPU不要干预。
+            若有大量的IO请求，会造成DMA的走线过多，则也会影响性能。
+            则改DMA为Channel，Channel为完全独立的单元，不需要向CPU申请权限，专门用于IO。
+早一代IO操作是由CPU负责IO接口：cpu与io交互
+新一代DMA授权处理IO接口：
+通道（Channel）模式：
+
+allocate() - 分配一块缓冲区　　
+put() -  向缓冲区写数据
+get() - 向缓冲区读数据　　
+filp() - 将缓冲区从写模式切换到读模式　　
+clear() - 从读模式切换到写模式，不会清空数据，但后续写数据会覆盖原来的数据，即使有部分数据没有读，也会被遗忘；　　
+compact() - 从读数据切换到写模式，数据不会被清空，会将所有未读的数据copy到缓冲区头部，后续写数据不会覆盖，而是在这些数据之后写数据
+mark() - 对position做出标记，配合reset使用
+reset() - 将position置为标记值　　
+rewind() mark=-1； position=0；
+
+capacity - 缓冲区大小，无论是读模式还是写模式，此属性值不会变；
+position - 写数据时，position表示当前写的位置，每写一个数据，会向下移动一个数据单元，初始为0；
+最大为capacity - 1，切换到读模式时，position会被置为0，表示当前读的位置
+limit - 写模式下，limit 相当于capacity 表示最多可以写多少数据，切换到读模式时，limit 等于原先的position，表示最多可以读多少数据。
+
+Channel.truncate(100L);截断
+Channel.force(true);强制写入，布尔值作为参数，说明文件元数据（权限等）是否也应被刷新。

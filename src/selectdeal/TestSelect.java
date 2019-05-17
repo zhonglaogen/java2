@@ -20,6 +20,7 @@ public class TestSelect {
             //无法找到类目标异常，没有权限访问异常
         } catch (InvocationTargetException e) {
             e.printStackTrace();
+            //权限不够private
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }

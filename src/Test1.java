@@ -51,7 +51,7 @@ public class Test1 {
                 }
             }
         },"AAAAAA");
-        thread.setDaemon(false);//不加这句会一直执行线程AAAAAA,会在主线程结束后释放守护线程
+        thread.setDaemon(true);//不加这句会一直执行线程AAAAAA,会在主线程结束后释放守护线程
         thread.start();
         System.out.println("main is over");
 
@@ -59,6 +59,14 @@ public class Test1 {
 
         Single5 instace = Single5.INSTANCE;
         System.out.println(instace.hashCode());
+
+        //打印整数二进制
+        int a=-1;
+        for(int i=0;i<32;i++){
+            int t=(a&0x80000000>>>i)>>>(31-i);
+            System.out.print(t);
+        }
+
 
     }
 }
