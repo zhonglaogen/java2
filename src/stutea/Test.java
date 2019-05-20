@@ -28,7 +28,7 @@ public class Test {
         Teacher t2 = teas.get(tID);
 
         //将学生加到老师的List，将老师加到学生的List里
-        if(s1!=null && s1!=null){
+        if(s1!=null && t2!=null){
             t2.addStudent(s1);
             s1.addTeacher(t2);
         }else{

@@ -1,1 +1,4 @@
 热替换
+1.时间戳
+2.删除原来class，替换掉class，二次load，（创建了一个新的classloader对象）
+3.while(true)---(不停地重新创建classloader)

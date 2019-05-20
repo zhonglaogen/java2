@@ -1,1 +1,4 @@
 线程之间的死锁
+top
+jps -l
+jstack 进程Id
