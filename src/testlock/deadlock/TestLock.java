@@ -1,4 +1,4 @@
-package testlock;
+package testlock.deadlock;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package testlock;
+package testlock.deadlock;
 
 public class Deadlock {
     private static String a="aaaa";
