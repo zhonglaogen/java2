@@ -7,6 +7,7 @@ import java.util.concurrent.FutureTask;
 
 public class Test1 {
     static User u1;
+    static int num;
     public static void main(String[] args) throws InterruptedException {
 //        Thread.currentThread().interrupt();
 //        User user=new User("aa");
@@ -67,9 +68,20 @@ public class Test1 {
 //            System.out.print(t);
 //        }
 
-        String aa="123456789";
-        int i = aa.lastIndexOf(".");
-        System.out.println(i);
+//        String aa="123456789";
+//        int i = aa.lastIndexOf(".");
+//        System.out.println(i);
+
+        while (true){
+            num++;
+            System.out.println(num);
+            if(num==10){
+                return;
+            }
+            System.out.println("while");
+
+        }
+
 
 
 

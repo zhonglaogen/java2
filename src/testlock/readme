@@ -2,3 +2,12 @@
 top
 jps -l
 jstack 进程Id
+
+CountDownLatch
+cyclicbarrier
+Semaphore
+locksupport
+
+readwrite
+condition
+threadlocal

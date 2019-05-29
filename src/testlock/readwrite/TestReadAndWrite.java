@@ -56,13 +56,13 @@ public class TestReadAndWrite {
     public static void main(String[] args) {
         Mycache m1 = new Mycache();
 
+        for (int i = 0; i < 5; i++) {
+            int finalI = i;
+            new Thread(()->{
+                m1.put(finalI +"", finalI +"");
+            },String.valueOf(i)).start();
+        }
 
-             for (int i = 0; i < 5; i++) {
-                 int finalI = i;
-                 new Thread(()->{
-                             m1.put(finalI +"", finalI +"");
-                         },String.valueOf(i)).start();
-                     }
 
         for (int i = 0; i < 5; i++) {
             int finalI = i;
@@ -70,6 +70,9 @@ public class TestReadAndWrite {
                 m1.get(finalI +"");
             },String.valueOf(i)).start();
         }
+
+
+
     }
 
 }
