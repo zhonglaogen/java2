@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/callable/TestCallable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadpool/MyThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,24 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3984">
-              <caret line="208" column="20" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27384">
-              <caret line="1196" column="22" selection-start-line="1196" selection-start-column="22" selection-end-line="1196" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestCall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/callable/TestCall.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,15 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1968">
-              <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlockProCust.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/provider/BlockProCust.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,10 +74,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyThreadPoolDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConditionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testlock/condition/ConditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThreadPoolDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threadpool/MyThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="312">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -115,33 +98,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MyMapFor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProCust.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/provider/ProCust.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcollection/readme">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="TestCopy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcollection/TestCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="5496">
               <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4944">
-              <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
-              <folding>
-                <element signature="e#7388#7389#0" expanded="true" />
-                <element signature="e#7427#7428#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -266,9 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,12 +273,54 @@
             </path>
             <path>
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="BlockProCust.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="ProCust.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="refect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testlock" type="462c0819:PsiDirectoryNode" />
+              <item name="condition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,6 +663,9 @@
       <workItem from="1559124529414" duration="3697000" />
       <workItem from="1559143412541" duration="394000" />
       <workItem from="1559306714540" duration="1186000" />
+      <workItem from="1559309673438" duration="257000" />
+      <workItem from="1559377065470" duration="134000" />
+      <workItem from="1559397470357" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="java2 study">
       <created>1557845205778</created>
@@ -702,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559111974355</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add threadlcoal">
+      <created>1559309701044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559309701044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -726,7 +768,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156953000" />
+    <option name="totallyTimeSpent" value="157403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,30 +783,30 @@
     <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32988507" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
-      <window_info id="Structure" order="1" sideWeight="0.4602992" side_tool="true" visible="true" weight="0.23375931" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40966627" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32988507" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3383199" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.45454547" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5397008" visible="true" weight="0.23375931" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53624856" visible="true" weight="0.2401491" />
       <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
+      <window_info id="Structure" order="1" sideWeight="0.46375144" side_tool="true" visible="true" weight="0.2401491" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40966627" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -788,7 +830,8 @@
     <MESSAGE value="add locak instance" />
     <MESSAGE value="add readandWrite" />
     <MESSAGE value="add condition procust callable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add condition procust callable" />
+    <MESSAGE value="add threadlcoal" />
+    <option name="LAST_COMMIT_MESSAGE" value="add threadlcoal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,13 +869,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classloader/test1/HelloLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classloader/test3/TestHotLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1470,37 +1506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcollection/TestCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testlock/condition/ConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/provider/ProCust.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
@@ -1536,24 +1541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/provider/BlockProCust.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4944">
           <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1583,15 +1574,59 @@
     </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="5496">
           <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threadpool/MyThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="312">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcollection/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcollection/TestCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/provider/ProCust.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/provider/BlockProCust.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testlock/condition/ConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
