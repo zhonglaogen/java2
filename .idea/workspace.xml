@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/kmp/Kmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/tree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/tree/SegTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/tree/TestTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/tree/TwoTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="add tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,7 +45,7 @@
       <file leaf-file-name="Kmp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/src/main/java/kmp/Kmp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="337">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="method#kmpSearch#0;class#Kmp#0" />
@@ -183,6 +175,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,41 +190,6 @@
             </path>
             <path>
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -239,7 +197,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,7 +548,8 @@
       <workItem from="1559834146027" duration="708000" />
       <workItem from="1559968154062" duration="14431000" />
       <workItem from="1560053406221" duration="3307000" />
-      <workItem from="1560362529317" duration="591000" />
+      <workItem from="1560362529317" duration="748000" />
+      <workItem from="1560623237146" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="java2 study">
       <created>1557845205778</created>
@@ -677,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559480902273</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add tree">
+      <created>1560364098329</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560364098329</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -701,7 +666,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185162000" />
+    <option name="totallyTimeSpent" value="185365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,8 +678,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -731,7 +695,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.45454547" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53047776" visible="true" weight="0.25612354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53047776" visible="true" weight="0.25878593" />
       <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info id="Structure" order="1" sideWeight="0.46952224" side_tool="true" weight="0.25079873" />
@@ -765,7 +729,8 @@
     <MESSAGE value="add readandWrite" />
     <MESSAGE value="add condition procust callable" />
     <MESSAGE value="add threadlcoal" />
-    <option name="LAST_COMMIT_MESSAGE" value="add threadlcoal" />
+    <MESSAGE value="add tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1528,7 +1493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/src/main/java/kmp/Kmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="337">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="method#kmpSearch#0;class#Kmp#0" />
