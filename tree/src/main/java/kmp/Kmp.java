@@ -80,7 +80,7 @@ public class Kmp {
 
     public static void main(String[] args) {
         String str = "ABABCABAA";
-        String str1 = "ABABABCABAABABCABAAWQDSA";
+        String str1 = "ABABABCABAABABCABAAWQDSAA";
         //{'A', 'B', 'A', 'B', 'C', 'A', 'B', 'A', 'A'};
         char[] pattern = str.toCharArray();
         char[] text=str1.toCharArray();
