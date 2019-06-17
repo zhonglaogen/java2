@@ -64,7 +64,7 @@ public class SegTree {
      * @param R
      * @return
      */
-    static int query(int arr[], int[] tree, int node, int start, int end, int L, int R) {
+    static int query(int[] arr, int[] tree, int node, int start, int end, int L, int R) {
         System.out.println("start =" + start);
         System.out.println("end =" + end);
         System.out.println();
