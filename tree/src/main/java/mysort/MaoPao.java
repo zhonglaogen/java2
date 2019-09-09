@@ -1,7 +1,7 @@
 package mysort;
 
 /**
- * 冒泡排序 O（n）
+ * 冒泡排序 O（n^2）
  */
 public class MaoPao {
 

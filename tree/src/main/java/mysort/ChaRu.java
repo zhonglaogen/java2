@@ -2,6 +2,7 @@ package mysort;
 
 /**
  * 插入
+ * n^2 稳定
  */
 public class ChaRu {
 

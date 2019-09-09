@@ -1,6 +1,7 @@
 package mysort;
 
 /**
+ * nlogn ，基本有序为n^2,不稳定
  * 快速排序
  */
 public class KuaiSu {

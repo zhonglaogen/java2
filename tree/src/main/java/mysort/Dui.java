@@ -12,8 +12,8 @@ package mysort;
  */
 public class Dui {
 
-    /**
-     * 构建堆
+    /**nlogn 不稳定
+     * 构建堆,发生交换会由上至下
      * @param tree 要进行堆化的数组，
      * @param n 数组长度
      * @param i 对哪个节点进行堆化
@@ -37,7 +37,6 @@ public class Dui {
             //比较两个值不相等，交换
             swap(tree,max,i);
             //交换后会破坏下层堆结构，要对交换的下层堆结构进行再次构建
-
             heapify(tree,n,max);
         }
     }

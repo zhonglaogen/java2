@@ -1,6 +1,6 @@
 package mysort;
 
-/**
+/**n^2不稳定
  * 选择
  */
 public class XuanZe {
