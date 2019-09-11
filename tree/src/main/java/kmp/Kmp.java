@@ -34,7 +34,6 @@ public class Kmp {
             }
         }
     }
-
     //整体将前缀数组后移一位，第一位补-1
     static void move(int[] prefix, int n) {
         for (int i = n - 1; i > 0; i--) {

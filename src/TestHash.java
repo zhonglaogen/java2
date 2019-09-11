@@ -6,41 +6,49 @@ import java.util.concurrent.Executors;
 
 public class TestHash {
 //   static String aa="aaa";
+static class User{
+        public int id;
+
+    public User(int id) {
+        this.id = id;
+    }
+}
+
     static void say(){
         System.out.println("hello");
     }
     public static void main(String[] args) {
-//        HashMap<User2, Integer> map=new HashMap<>();
-//        List<User2> user2=new ArrayList<>();
-//        for (int i = 0; i < 10; i++) {
-//            user2.add(new User2());
-//        }
-//        for (int i = 0; i < 10; i++) {
-//            map.put(user2.get(i),i);
-//        }
-//        map.remove(user2.get(1));
-//        map.remove(user2.get(2));
-//        map.remove(user2.get(3));
-//
-//        float a= (float) 1.4;
-//        System.out.println();
-//
-//        ExecutorService executorService = Executors.newFixedThreadPool(10);
-////        executorService.execute();
-
-        StringBuilder s1=new StringBuilder("aaa");
-        StringBuilder s12=new StringBuilder("aaa");
-        s1.append("bbb");
-        s12=s1;
-//       final String aa="aaa";
-//        aa="bbb";
-        System.out.println(s1);
-        System.out.println(s12);
-//        System.out.println(aa);
-
-        TestHash q=new TestHash();
+        Integer integer = new Integer(9999);
+        change(integer);
+        String b="bbbb";
+        String a=new String("1111");
+        StringBuilder stringBuilder=new StringBuilder("aaa");
+        User u=new User(1);
+        int[] arry={1,2,3,4};
+        change(b);
+        System.out.println(b);
 
 
+    }
+
+    private static void change(int[] arry) {
+        arry=new int[]{2,2,2,2};
+    }
+
+    private static void change(User u) {
+       u.id=10;
+    }
+
+    private static void change(StringBuilder stringBuilder) {
+        stringBuilder=new StringBuilder("ssss");
+    }
+
+    private static void change(String a) {
+        a=a+"s";
+    }
+
+    private static void change(Integer integer) {
+        integer=integer+1;
     }
 }
 
