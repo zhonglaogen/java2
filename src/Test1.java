@@ -1,6 +1,8 @@
 import single.Single5;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CountedCompleter;
 import java.util.concurrent.FutureTask;
@@ -62,25 +64,53 @@ public class Test1 {
 //        System.out.println(instace.hashCode());
 
         //打印整数二进制
-//        int a=-1;
+//        int a=~1;
 //        for(int i=0;i<32;i++){
 //            int t=(a&0x80000000>>>i)>>>(31-i);
+//            System.out.print(t);
+//        }
+//        System.out.println();
+
+//        int n=0xA;
+//        System.out.println(n);
+//       int nn= n-n&(~n+1);
+//        System.out.println(nn);
+//        for(int i=0;i<32;i++){
+//            int t=(nn&0x80000000>>>i)>>>(31-i);
 //            System.out.print(t);
 //        }
 
 //        String aa="123456789";
 //        int i = aa.lastIndexOf(".");
 //        System.out.println(i);
+//
+//        while (true){
+//            num++;
+//            System.out.println(num);
+//            if(num==10){
+//                return;
+//            }
+//            System.out.println("while");
 
-        while (true){
-            num++;
-            System.out.println(num);
-            if(num==10){
-                return;
-            }
-            System.out.println("while");
+//        }
 
+        HashMap<Integer,String > m=new HashMap<>();
+        m.put(1,"a");
+        m.put(2,"b");
+        m.put(3,"c");
+        m.put(4,"d");
+        m.put(5,"e");
+        m.put(6,"f");
+        m.put(7,"g");
+        for(Map.Entry<Integer,String> a:m.entrySet()){
+
+            System.out.println(""+a.getKey()+"\t"+a.getValue());
         }
+
+
+
+
+
 
 
 

@@ -10,7 +10,7 @@ public class CycliBarrierTest {
 
     public static void main(String[] args) {
         CyclicBarrier cyclicBarrier=new CyclicBarrier(7,()->{
-            System.out.println("××××××××××××召唤神龙");
+            System.out.println(Thread.currentThread().getName()+"××××××××××××召唤神龙");
         });
         for (int i = 0; i < 7; i++) {
             int finalI = i;
@@ -18,6 +18,7 @@ public class CycliBarrierTest {
                         System.out.println(Thread.currentThread().getName()+"\t收集到的第"+ finalI +"龙珠");
                 try {
                     cyclicBarrier.await();
+                    System.out.println("ok"+Thread.currentThread().getName());
                 } catch (InterruptedException e) {
 
                 } catch (BrokenBarrierException e) {
