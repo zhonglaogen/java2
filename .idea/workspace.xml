@@ -6,19 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testfianl/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfianl/Filed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfianl/MyFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfianl/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfianl/TestFianl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfianl/TestParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" afterDir="false" />
+    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="add missNum的注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testlock/cyclicbarrier/CycliBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testlock/cyclicbarrier/CycliBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcollection/MyMapFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcollection/MyMapFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/tree/target/" />
@@ -57,7 +48,34 @@
     <favorites_list name="java2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MissNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMapFor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1380#1381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,7 +137,6 @@
         <option value="$PROJECT_DIR$/tree/src/main/java/tree/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/single/Single5.java" />
         <option value="$PROJECT_DIR$/tree/src/main/java/tree/SegTree.java" />
-        <option value="$PROJECT_DIR$/src/testcollection/MyMapFor.java" />
         <option value="$PROJECT_DIR$/src/Test2.java" />
         <option value="$PROJECT_DIR$/tree/src/main/java/suanfa/Sum.java" />
         <option value="$PROJECT_DIR$/src/enum/Week.kt" />
@@ -147,9 +164,10 @@
         <option value="$PROJECT_DIR$/src/testfianl/Child.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/edab600e-e6be-4333-ad79-bf5985608798/console.sql" />
         <option value="$PROJECT_DIR$/src/User2.java" />
-        <option value="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" />
         <option value="$PROJECT_DIR$/src/Test1.java" />
         <option value="$PROJECT_DIR$/src/testlock/cyclicbarrier/CycliBarrierTest.java" />
+        <option value="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" />
+        <option value="$PROJECT_DIR$/src/testcollection/MyMapFor.java" />
       </list>
     </option>
   </component>
@@ -187,9 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,6 +358,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +401,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CycliBarrierTest">
+  <component name="RunManager" selected="Application.MyMapFor">
     <configuration name="CycliBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testlock.cyclicbarrier.CycliBarrierTest" />
       <module name="java2" />
@@ -406,21 +424,21 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1" />
-      <module name="java2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TestParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testfianl.TestParent" />
+    <configuration name="MyMapFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testcollection.MyMapFor" />
       <module name="java2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testfianl.*" />
+          <option name="PATTERN" value="testcollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="java2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="User2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="User2" />
@@ -615,19 +633,19 @@
     <list>
       <item itemvalue="Tomcat Server.s1" />
       <item itemvalue="Tomcat Server.s2" />
-      <item itemvalue="Application.TestParent" />
       <item itemvalue="Application.User2" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.MissNum" />
       <item itemvalue="Application.CycliBarrierTest" />
+      <item itemvalue="Application.MyMapFor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyMapFor" />
+        <item itemvalue="Application.MissNum" />
         <item itemvalue="Application.CycliBarrierTest" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.MissNum" />
         <item itemvalue="Application.User2" />
-        <item itemvalue="Application.TestParent" />
       </list>
     </recent_temporary>
   </component>
@@ -727,6 +745,8 @@
       <workItem from="1568710303305" duration="1510000" />
       <workItem from="1568784921610" duration="5810000" />
       <workItem from="1569207248418" duration="847000" />
+      <workItem from="1569319169311" duration="283000" />
+      <workItem from="1571387389039" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="java2 study">
       <created>1557845205778</created>
@@ -889,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568217866544</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add suanfa">
+      <created>1569319386687</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569319386687</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -913,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337738000" />
+    <option name="totallyTimeSpent" value="338294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +952,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -942,7 +970,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.12197929" visible="true" weight="0.18157615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.12197929" visible="true" weight="0.18477103" />
       <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
       <window_info anchor="right" id="Database" order="5" visible="true" weight="0.13045794" />
       <window_info id="Structure" order="1" sideWeight="0.8780207" side_tool="true" weight="0.1799787" />
@@ -1071,10 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,13 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25296">
@@ -1304,16 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,12 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
           <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,16 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28896">
           <caret line="1259" column="25" selection-start-line="1259" selection-start-column="25" selection-end-line="1259" selection-end-column="25" />
-          <folding>
-            <element signature="e#22675#22676#0" expanded="true" />
-            <element signature="e#22703#22704#0" expanded="true" />
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#42562#42563#0" expanded="true" />
-            <element signature="e#42619#42620#0" expanded="true" />
-            <element signature="e#44444#44445#0" expanded="true" />
-            <element signature="e#44501#44502#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,14 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9624">
           <caret line="456" column="18" selection-start-line="456" selection-start-column="18" selection-end-line="456" selection-end-column="18" />
-          <folding>
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1450,6 +1433,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
           <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

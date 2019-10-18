@@ -3,6 +3,10 @@ package suanfa;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * 通过 / 和 % 的特性来查找丢失的数字
+ */
 public class MissNum {
     public static List<Integer> findDisappearedNumbers(int[] nums) {
 
