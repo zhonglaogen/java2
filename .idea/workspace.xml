@@ -6,10 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="add missNum的注释">
+    <list default="true" id="47b6f570-c164-4cac-bd0c-589ba213ba3c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testarg/TestArgument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testcollection/MyMapFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcollection/MyMapFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java2/testcollection/MyMapFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java2/testcollection/MyMapFor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/tree/target/" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="MissNum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="144">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,16 +61,121 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyMapFor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestArgument.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testarg/TestArgument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1380#1381#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="class#Persion#0" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="class#Phone#0" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1584#1585#0" expanded="true" />
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/Character.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60648">
+              <caret line="2559" column="37" selection-start-line="2559" selection-start-column="37" selection-end-line="2559" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boolean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/Boolean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/AllSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndZero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/EndZero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <element signature="docComment;method#endZero#0;class#EndZero#0" />
+                <element signature="method#endZero#0;class#EndZero#0" />
+                <element signature="docComment;method#endZero2#0;class#EndZero#0" />
+                <element signature="method#endZero2#0;class#EndZero#0" />
+                <element signature="docComment;method#partion#0;class#EndZero#0" />
+                <element signature="method#main#0;class#EndZero#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiBing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/GuiBing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KuaiSu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/KuaiSu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/testlock/CountDownLatch/TestCountDownLatch.java" />
         <option value="$PROJECT_DIR$/src/testlock/Semaphore/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/src/testlock/locksupport/LockSupportTest.java" />
         <option value="$PROJECT_DIR$/src/testlock/readwrite.java" />
@@ -168,6 +272,7 @@
         <option value="$PROJECT_DIR$/src/testlock/cyclicbarrier/CycliBarrierTest.java" />
         <option value="$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java" />
         <option value="$PROJECT_DIR$/src/testcollection/MyMapFor.java" />
+        <option value="$PROJECT_DIR$/src/testarg/TestArgument.java" />
       </list>
     </option>
   </component>
@@ -206,6 +311,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,13 +329,7 @@
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
               <item name="java2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="callable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch1" type="462c0819:PsiDirectoryNode" />
+              <item name="testarg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
@@ -255,14 +355,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testlock" type="462c0819:PsiDirectoryNode" />
               <item name="condition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testlock" type="462c0819:PsiDirectoryNode" />
-              <item name="condition" type="462c0819:PsiDirectoryNode" />
-              <item name="ConditionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
@@ -339,6 +431,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mysort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suanfa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,11 +455,36 @@
               <item name="java2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,7 +527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyMapFor">
+  <component name="RunManager" selected="Application.TestArgument">
     <configuration name="CycliBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testlock.cyclicbarrier.CycliBarrierTest" />
       <module name="java2" />
@@ -440,10 +566,16 @@
       <module name="java2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="User2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User2" />
+    <configuration name="TestArgument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testarg.TestArgument" />
       <module name="java2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testarg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -633,19 +765,19 @@
     <list>
       <item itemvalue="Tomcat Server.s1" />
       <item itemvalue="Tomcat Server.s2" />
-      <item itemvalue="Application.User2" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.MissNum" />
       <item itemvalue="Application.CycliBarrierTest" />
       <item itemvalue="Application.MyMapFor" />
+      <item itemvalue="Application.TestArgument" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArgument" />
         <item itemvalue="Application.MyMapFor" />
         <item itemvalue="Application.MissNum" />
         <item itemvalue="Application.CycliBarrierTest" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.User2" />
       </list>
     </recent_temporary>
   </component>
@@ -746,7 +878,11 @@
       <workItem from="1568784921610" duration="5810000" />
       <workItem from="1569207248418" duration="847000" />
       <workItem from="1569319169311" duration="283000" />
-      <workItem from="1571387389039" duration="273000" />
+      <workItem from="1571387389039" duration="452000" />
+      <workItem from="1571204584439" duration="285000" />
+      <workItem from="1571219502210" duration="648000" />
+      <workItem from="1571274369748" duration="24000" />
+      <workItem from="1572060768464" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="java2 study">
       <created>1557845205778</created>
@@ -916,7 +1052,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569319386687</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add missNum的注释 map的遍历">
+      <created>1571387826840</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571387826840</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -940,7 +1083,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338294000" />
+    <option name="totallyTimeSpent" value="341465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,30 +1099,30 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32911393" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30264673" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.12197929" visible="true" weight="0.18477103" />
-      <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.13045794" />
-      <window_info id="Structure" order="1" sideWeight="0.8780207" side_tool="true" weight="0.1799787" />
+      <window_info anchor="right" id="Database" order="5" weight="0.12996778" />
+      <window_info id="Structure" order="1" sideWeight="0.8780207" side_tool="true" weight="0.17991407" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36363637" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30252102" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.12197929" visible="true" weight="0.19226637" />
+      <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.19447641" side_tool="true" weight="0.1799787" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36363637" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.1150748" />
@@ -990,39 +1133,39 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32911393" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.1150748" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33371693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30252102" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960597" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
+      <window_info id="Favorites" order="5" sideWeight="0.19447641" side_tool="true" weight="0.1799787" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.15495208" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.23056443" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.15495208" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.15814696" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.12197929" visible="true" weight="0.19226637" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.12996778" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" sideWeight="0.45351043" side_tool="true" weight="0.21884984" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" visible="true" weight="0.23056443" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960597" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40966627" />
+      <window_info id="Structure" order="1" sideWeight="0.8780207" side_tool="true" weight="0.1799787" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36363637" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1046,7 +1189,8 @@
     <MESSAGE value="add quick zero" />
     <MESSAGE value="add xiER" />
     <MESSAGE value="add suanfa" />
-    <option name="LAST_COMMIT_MESSAGE" value="add suanfa" />
+    <MESSAGE value="add missNum的注释 map的遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="add missNum的注释 map的遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1081,69 +1225,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/tree/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="694" column="19" selection-start-line="694" selection-start-column="19" selection-end-line="694" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/TestFianl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/Filed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/TestParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfianl/MyFinal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-761">
@@ -1235,42 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/AllSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/EndZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;method#endZero#0;class#EndZero#0" />
-            <element signature="method#endZero#0;class#EndZero#0" />
-            <element signature="docComment;method#endZero2#0;class#EndZero#0" />
-            <element signature="method#endZero2#0;class#EndZero#0" />
-            <element signature="docComment;method#partion#0;class#EndZero#0" />
-            <element signature="method#main#0;class#EndZero#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/HanNuo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25296">
@@ -1303,24 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/Dui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/GuiBing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1436,9 +1463,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/tree/SegTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/HanNuo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/kmp/Kmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/ChaRu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/Dui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/GuiBing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/mysort/KuaiSu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/AllSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/EndZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;method#endZero#0;class#EndZero#0" />
+            <element signature="method#endZero#0;class#EndZero#0" />
+            <element signature="docComment;method#endZero2#0;class#EndZero#0" />
+            <element signature="method#endZero2#0;class#EndZero#0" />
+            <element signature="docComment;method#partion#0;class#EndZero#0" />
+            <element signature="method#main#0;class#EndZero#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/MissNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="144">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1446,14 +1551,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcollection/MyMapFor.java">
+    <entry file="file://$PROJECT_DIR$/tree/src/main/java/suanfa/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#32532#32533#0" expanded="true" />
+            <element signature="e#32566#32567#0" expanded="true" />
+            <element signature="e#37816#37817#0" expanded="true" />
+            <element signature="e#37859#37860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60648">
+          <caret line="2559" column="37" selection-start-line="2559" selection-start-column="37" selection-end-line="2559" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testarg/TestArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="class#Persion#0" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="class#Phone#0" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
           </folding>
         </state>
       </provider>
