@@ -47,6 +47,7 @@ public class Testrandom {
             ByteBuffer bf = ByteBuffer.allocateDirect(1024);
 //            ByteBuffer.wrap("ssss".getBytes());//创建指定大小的缓冲区
             int bytesRead = fc.read(bf);
+
             while (bytesRead != -1) {
                 bf.flip();
                 while (bf.hasRemaining()) {
