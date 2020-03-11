@@ -1,7 +1,9 @@
 package tree;
 
+import javax.xml.bind.annotation.XmlAnyAttribute;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /** 普通情况array数组：：：query O(n),update(1)
  * 另一个数组用来求和，数组位置的数字是前几个位置的和：：query是O（1） update是O（n）
@@ -104,6 +106,85 @@ public class SegTree {
 
     }
 
+    public static void printTree(int[] tree, int count){
+        int index = 0;
+        int height = (int) (Math.log(count)/Math.log(2) + 1);
+        int rowLength = (int) Math.pow(2, height - 1);
+        int gap = rowLength / 2;
+
+//        是否换行
+
+        int markIncre = 1;
+        int mark = (int) Math.pow(2,1) - 1;
+        int ppCount = 0;
+        boolean firstNode = true;
+//        首元素之前的空格，每次向下循环都要间隙-2
+        int gapSpcae = height;
+        StringBuilder gapSpaces = new StringBuilder("          ");
+
+
+
+
+        for (int i = 0; i < count; i++) {
+            StringBuilder gaps = new StringBuilder();
+            for (int j = 0; j < gap; j++) {
+                gaps.append("  ");
+            }
+            if (firstNode){
+                System.out.print(gaps.toString()  + changeString(tree[i]) + gapSpaces.toString());
+                firstNode = false;
+            }else {
+                System.out.print(changeString(tree[i]) + gapSpaces.toString() + "");
+            }
+
+
+            ppCount++;
+            if (mark == ppCount){
+//                换行操作
+                System.out.println();
+
+//                用来标记空位（行首）
+                gap--;
+
+//                用来标记换行
+                markIncre++;
+                mark = (int) Math.pow(2,markIncre) - 1;
+                firstNode = true;
+
+//                美化行首空位
+                gapSpaces.delete(0,4);
+
+            }
+//            遇到换行在减少间隙
+
+        }
+
+
+    }
+
+
+    /**
+     * 得出数字的位数转换成相应的字符串
+     * @param
+     * @return
+     */
+    private static String changeString(int num) {
+        num = num>0?num:-num;
+        int count =  String.valueOf(num).length();
+        switch (count){
+            case 1:
+                return num + "  ";
+            case 2:
+                return  num + " ";
+            default:
+                    return "" + num;
+        }
+    }
+
+
+
+
+
     public static void main(String[] args) {
         int[] arry = {1, 3, 5, 7, 9, 11};
         int size = arry.length;
@@ -113,6 +194,9 @@ public class SegTree {
         for (int i = 0; i < 15; i++) {
             System.out.print(tree[i] + "\t");
         }
+        System.out.println();
+//        printTree(tree,15);
+        System.out.println();
 
 
         System.out.println();
