@@ -91,17 +91,18 @@ void init_dictionary(Dictionary* dict, int max_size){
     }
 }
 
-//在字典取出这个字符传的编码
-int get_seq_code(Dictionary* dict, char* seq){
 
 
-    for (int i = 0; i < dict->size; ++i) {
-//        !!!!!!!!字符串比较，等于0表示有
-        if(strcmp(dict->seq[i], seq) == 0){
-            return dict->code[i];
-        }
+
+//这个是通过编码找字符
+char* get_code_seq(Dictionary* dict, int code){
+
+    if(code < 0 || code > dict->size){
+        return NULL;
+    } else {
+        int i = code;
+        return dict->seq[i];
     }
-    return NOT_EXIST;
 }
 
 //打印
@@ -121,52 +122,34 @@ void print_dictionary(Dictionary* dict){
 }
 
 
-void lzw_encode(char* text, Dictionary* dict){
-//    这样定义数组表示数组内容可读可写，char*定义数组表示数组只读（因为只是定义了一个执行字符串数组的指针）效率高
-    char current[1000];
-    char next;
+void lzw_decode(int codes[], int n, Dictionary* dict){
     int code;
-//    探测的位数
-    int i = 0;
-//    从这个字符串0位置开始编码
-    while(i < strlen(text)){
-//        把第i个字母放入current数组中
-        sprintf(current, "%c", text[i]);
-        next = text[i+1];
-//      检验编码是否以存在，如果存在就在current里放一位，在检查下一位
-        while(i < strlen(text) && get_seq_code(dict, current) != NOT_EXIST){
-//            !!!!!!!放入current数组
-            sprintf(current, "%s%c", current, next);
-//            这位存在，所以探测下一位
-            i++;
-            next = text[i + 1];
-        }
-//        每次探测成功next都会+1，让next退回到探测失败的下表
-        next = text[i];
-//        最后一位是不存在的，所以去掉,为了拿到不算这个字母的前几个字母的已有编码
+//    pre只能是保存out的值，间接获得，不能直接拿到
+    char pre[1000];
+//    output可以直接拿，可读就行
+    char* output;
 
-//        i的位置不是结束符的位置
-        if (i != strlen(text)){
-            current[strlen(current) - 1] = '\0';
-        }
+//    第一个元素不需要放入字典直接拿
+    code = codes[0];
+    output = get_code_seq(dict, code);
 
-        code = get_seq_code(dict, current);
+    printf("%s", output);
 
-            //       在这里加上是因为要存算上最后一位的新编码
-        sprintf(current, "%s%c", current, next);
+    int i;
+    for (int i = 1; i < n; ++i) {
+//        ！！！！！！！！！！复制数组
+        strcpy(pre,output);
+        output = get_code_seq(dict,codes[i]);
+        sprintf(pre, "%s%c", pre, output[0]);
+        insert_seq(dict,pre);
 
-
-
-
-        insert_seq(dict,current);
-
-        printf("%d,",code);
-//        打印编码，编码后的字典，编码中的下一个字符
-//        printf("%d %s %c\n",code,current,next);
-
-
+        printf("%s",output);
     }
+
+
 }
+
+
 
 int main(){
 //    结构体本身就是一个指针
@@ -174,19 +157,17 @@ int main(){
 
     init_dictionary(&dict, 1000);
 
-
-//    printf("%d",get_seq_code(&dict,"B"));
-
-    lzw_encode("TOBEORNOTTOBEORTOBEORNOT",&dict);
 //    print_dictionary(&dict);
 
-//    检验最后是不是数组内存溢出，在shell会报错
-//    printf("%d\n",strlen(dict.seq[42]));
+    int arr[16] = {20,15,2,5,15,18,14,15,20,27,29,31,36,30,32,34};
 
-//    两个字符串相等
-    printf("带结束符和不带结束符字符串是否相等(0为相等)：%d\n",strcmp("xx","xx\0"));
+    lzw_decode(arr,16,&dict);
 
 
-  return 0;
+
+
+    return 0;
 }
+
+
 
