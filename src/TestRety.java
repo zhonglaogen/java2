@@ -10,11 +10,18 @@ public class TestRety {
             System.out.println(" i = " + i);
             for (int j = 10; j < 20; j++) {
                 if (j == 15) {
-                    continue retry;
+                    break retry;
                 }
                 System.out.println(" j = " + j);
             }
         }
+
+
+        //continue退出节点的一层
+        //break退出节点的2层
+
+        String a = "大䳴的撒发顺丰";
+        System.out.println(a);
     }
 
 }
