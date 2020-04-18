@@ -1,5 +1,8 @@
 package single;
 
+/**
+ * 懒汉双重检验
+ */
 public class Single3 {
     private static volatile Single3 s3;//volatile关键字的作用是禁止指令重排
     // ，创建对象时有三步，有可能未初始化完对象，1分配内存，2初始化对象，3指向初始化对象

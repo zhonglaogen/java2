@@ -1,5 +1,8 @@
 package single;
 
+/**
+ * 静态内部类
+ */
 public class Singe4 {
 
     private static class MySingle4{

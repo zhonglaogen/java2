@@ -1,5 +1,8 @@
 package single;
 
+/**
+ * 懒汉模式
+ */
 public class Single2 {
     private static Single2 s2;
     private Single2(){}

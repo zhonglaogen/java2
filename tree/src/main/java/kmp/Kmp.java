@@ -9,6 +9,7 @@ public class Kmp {
      * @param n       表长度
      */
     static void prefixTbale(char[] pattern, int[] prefix, int n) {
+//        index位置的串的公共前缀长度len(此时len - 1为当前串index的位置)
         prefix[0] = 0;
         //比较的长度
         int len = 0;
@@ -24,6 +25,10 @@ public class Kmp {
                 //不一致就kmp找小一位比较
                 //当len=0时，就无法再找更小的一位了
                 if (len > 0) {
+//                    此刻为长度是公共长度-1 的串 的长度
+//                    例如串 AAAAB,当b不符合时,会将AAAA分成AAA,AAA(s1,s2),
+//                     此刻为了第三个字母和B进行比较,就必须s1的前缀等于s2的后缀(因为s1和s2是相等的,所以s1找到s1的前后缀共串
+//                          就找到了s1和s2的前串和后串)当len=0时表示前面没有共串(所以没有办法比较下一位)
                     len = prefix[len - 1];
                     //此时前缀为len也就是0，然后在比较下一个i
                 } else {
@@ -34,9 +39,10 @@ public class Kmp {
             }
         }
     }
-    //整体将前缀数组后移一位，第一位补-1
+    //整体将前缀数组后移一位，第一位补-1,
     static void move(int[] prefix, int n) {
         for (int i = n - 1; i > 0; i--) {
+//            index当前正在比较的下标,如果比较不相等,要找到当前公共串的位置, v代表index-1长度串的公共长度(用v做下标就是j应该的位置)
             prefix[i] = prefix[i - 1];
         }
         prefix[0] = -1;

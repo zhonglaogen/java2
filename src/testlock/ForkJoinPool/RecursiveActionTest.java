@@ -46,6 +46,7 @@ class SubTask extends RecursiveAction {
     @Override
     protected void compute() {
         if(end-beg>10) {
+            System.out.println("----");
             int mid = (beg+end) / 2;
             SubTask t1 = new SubTask(a, beg, mid);
             SubTask t2 = new SubTask(a, mid, end);

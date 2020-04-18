@@ -1,0 +1,6 @@
+1. Suffix array简介
+2. Suffix array和BWT的关系
+3. 线性时间内构建Suffix array的方法（O(n)）
+
+
+比较到$的位置其实就肯定会出结果了，$为最小元素。所以￥后面的元素不会比较了
