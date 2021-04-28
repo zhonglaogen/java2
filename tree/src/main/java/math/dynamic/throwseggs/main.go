@@ -56,6 +56,7 @@ func throw2() {
 over:
 	for i := 1; i <= n; i++ {
 		for j := 1; j <= m; j++ {
+		// 次数是上限
 			f[i][j] = f[i-1][j-1] + f[i-1][j] + 1
 			if f[i][j] >= n {
 				fmt.Println(i)
